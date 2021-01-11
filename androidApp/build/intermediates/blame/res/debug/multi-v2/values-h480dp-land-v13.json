@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sanchez/work/ios/otus/recipepuppy-kmm/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "/Users/sanchez/work/ios/otus/kmm-moko-generated/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/sanchez/.gradle/caches/transforms-2/files-2.1/0dbc8f067402a8d652acfd8ef2fd2cc1/material-1.2.1/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+                    "source": "/Users/sanchez/.gradle/caches/transforms-2/files-2.1/e95bf715707f05a1cb1f3175b9f73f6e/material-1.2.1/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

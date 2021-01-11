@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class SharedKtor_client_coreHttpClient, SharedKotlinx_serialization_coreJson, SharedRecipeList, SharedErrorModel, SharedRecipe, SharedRecipeApi, SharedKtor_client_coreHttpClientEngineConfig, SharedKtor_client_coreHttpClientConfig<T>, SharedKtor_client_coreHttpRequestBuilder, SharedKtor_client_coreHttpClientCall, SharedKotlinx_coroutines_coreCoroutineDispatcher, SharedKtor_client_coreHttpReceivePipeline, SharedKtor_client_coreHttpRequestPipeline, SharedKtor_client_coreHttpResponsePipeline, SharedKtor_client_coreHttpSendPipeline, SharedKotlinx_serialization_coreSerializersModule, SharedKotlinx_serialization_coreJsonElement, SharedKotlinThrowable, SharedKotlinArray<T>, SharedKotlinException, SharedKotlinRuntimeException, SharedKotlinIllegalStateException, SharedKtor_client_coreHttpRequestData, SharedKtor_client_coreHttpResponseData, SharedKtor_client_coreProxyConfig, SharedKotlinNothing, SharedKtor_httpHeadersBuilder, SharedKtor_httpURLBuilder, SharedKtor_httpHttpMethod, SharedKtor_client_coreTypeInfo, SharedKtor_client_coreHttpResponse, SharedKtor_utilsAttributeKey<T>, SharedKotlinAbstractCoroutineContextElement, SharedKtor_utilsPipelinePhase, SharedKtor_utilsPipeline<TSubject, TContext>, SharedKtor_client_coreHttpResponseContainer, SharedKotlinx_serialization_coreSerialKind, SharedKotlinx_serialization_coreUpdateMode, SharedKtor_httpUrl, SharedKtor_httpOutgoingContent, SharedKtor_httpHttpStatusCode, SharedKtor_utilsGMTDate, SharedKtor_httpHttpProtocolVersion, SharedKtor_utilsStringValuesBuilder, SharedKtor_httpURLProtocol, SharedKtor_httpParametersBuilder, SharedKotlinx_coroutines_coreCancellationException, SharedKotlinUnit, SharedKotlinEnum<E>, SharedKtor_httpContentType, SharedKtor_utilsWeekDay, SharedKtor_utilsMonth, SharedKotlinKTypeProjection, SharedKtor_ioMemory, SharedKtor_ioIoBuffer, SharedKotlinByteArray, SharedKtor_ioByteReadPacket, SharedKtor_ioByteOrder, SharedKtor_httpHeaderValueParam, SharedKtor_httpHeaderValueWithParameters, SharedKotlinx_coroutines_coreAtomicDesc, SharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, SharedKotlinKVariance, SharedKtor_ioBuffer, SharedKtor_ioChunkBuffer, SharedKotlinCharArray, SharedKotlinByteIterator, SharedKtor_ioAbstractInput, SharedKtor_ioByteReadPacketBase, SharedKtor_ioByteReadPacketPlatformBase, SharedKotlinx_coroutines_coreAtomicOp<__contravariant T>, SharedKotlinx_coroutines_coreOpDescriptor, SharedKotlinx_coroutines_coreLockFreeLinkedListNode, SharedKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, SharedKotlinCharIterator, SharedKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, SharedKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class SharedKtor_client_coreHttpClient, SharedKotlinx_serialization_coreJson, SharedRecipeList, SharedRecipeApi, SharedRecipe, SharedErrorModel, SharedKtor_client_coreHttpClientEngineConfig, SharedKtor_client_coreHttpClientConfig<T>, SharedKtor_client_coreHttpRequestBuilder, SharedKtor_client_coreHttpClientCall, SharedKotlinx_coroutines_coreCoroutineDispatcher, SharedKtor_client_coreHttpReceivePipeline, SharedKtor_client_coreHttpRequestPipeline, SharedKtor_client_coreHttpResponsePipeline, SharedKtor_client_coreHttpSendPipeline, SharedKotlinx_serialization_coreSerializersModule, SharedKotlinx_serialization_coreJsonElement, SharedKotlinThrowable, SharedKotlinArray<T>, SharedKotlinException, SharedKotlinRuntimeException, SharedKotlinIllegalStateException, SharedKtor_client_coreHttpRequestData, SharedKtor_client_coreHttpResponseData, SharedKtor_client_coreProxyConfig, SharedKotlinNothing, SharedKtor_httpHeadersBuilder, SharedKtor_httpURLBuilder, SharedKtor_httpHttpMethod, SharedKtor_client_coreTypeInfo, SharedKtor_client_coreHttpResponse, SharedKtor_utilsAttributeKey<T>, SharedKotlinAbstractCoroutineContextElement, SharedKtor_utilsPipelinePhase, SharedKtor_utilsPipeline<TSubject, TContext>, SharedKtor_client_coreHttpResponseContainer, SharedKotlinx_serialization_coreSerialKind, SharedKotlinx_serialization_coreUpdateMode, SharedKtor_httpUrl, SharedKtor_httpOutgoingContent, SharedKtor_httpHttpStatusCode, SharedKtor_utilsGMTDate, SharedKtor_httpHttpProtocolVersion, SharedKtor_utilsStringValuesBuilder, SharedKtor_httpURLProtocol, SharedKtor_httpParametersBuilder, SharedKotlinx_coroutines_coreCancellationException, SharedKotlinUnit, SharedKotlinEnum<E>, SharedKtor_httpContentType, SharedKtor_utilsWeekDay, SharedKtor_utilsMonth, SharedKotlinKTypeProjection, SharedKtor_ioMemory, SharedKtor_ioIoBuffer, SharedKotlinByteArray, SharedKtor_ioByteReadPacket, SharedKtor_ioByteOrder, SharedKtor_httpHeaderValueParam, SharedKtor_httpHeaderValueWithParameters, SharedKotlinx_coroutines_coreAtomicDesc, SharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, SharedKotlinKVariance, SharedKtor_ioBuffer, SharedKtor_ioChunkBuffer, SharedKotlinCharArray, SharedKotlinByteIterator, SharedKtor_ioAbstractInput, SharedKtor_ioByteReadPacketBase, SharedKtor_ioByteReadPacketPlatformBase, SharedKotlinx_coroutines_coreAtomicOp<__contravariant T>, SharedKotlinx_coroutines_coreOpDescriptor, SharedKotlinx_coroutines_coreLockFreeLinkedListNode, SharedKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, SharedKotlinCharIterator, SharedKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, SharedKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol SharedKotlinx_serialization_coreKSerializer, SharedKotlinCoroutineContext, SharedKotlinx_coroutines_coreCoroutineScope, SharedRecipesListView, SharedRecipesPresenter, SharedKtor_ioCloseable, SharedKtor_client_coreHttpClientEngine, SharedKtor_client_coreHttpClientEngineCapability, SharedKtor_utilsAttributes, SharedKotlinx_serialization_coreDeserializationStrategy, SharedKotlinx_serialization_coreSerializationStrategy, SharedKotlinx_serialization_coreSerialFormat, SharedKotlinx_serialization_coreStringFormat, SharedKotlinx_serialization_coreEncoder, SharedKotlinx_serialization_coreSerialDescriptor, SharedKotlinx_serialization_coreDecoder, SharedKotlinCoroutineContextElement, SharedKotlinCoroutineContextKey, SharedKtor_client_coreHttpClientFeature, SharedKtor_httpHttpMessageBuilder, SharedKotlinx_coroutines_coreJob, SharedKtor_client_coreHttpRequest, SharedKotlinContinuation, SharedKotlinContinuationInterceptor, SharedKotlinx_coroutines_coreRunnable, SharedKotlinSuspendFunction2, SharedKotlinx_serialization_coreSerializersModuleCollector, SharedKotlinKClass, SharedKotlinIterator, SharedKotlinx_serialization_coreCompositeEncoder, SharedKotlinAnnotation, SharedKotlinx_serialization_coreCompositeDecoder, SharedKtor_httpHeaders, SharedKtor_utilsStringValues, SharedKotlinMapEntry, SharedKotlinx_coroutines_coreChildHandle, SharedKotlinx_coroutines_coreChildJob, SharedKotlinx_coroutines_coreDisposableHandle, SharedKotlinSequence, SharedKotlinx_coroutines_coreSelectClause0, SharedKotlinKType, SharedKtor_httpHttpMessage, SharedKtor_ioByteReadChannel, SharedKotlinFunction, SharedKotlinKDeclarationContainer, SharedKotlinKAnnotatedElement, SharedKotlinKClassifier, SharedKotlinComparable, SharedKtor_httpParameters, SharedKotlinx_coroutines_coreParentJob, SharedKotlinx_coroutines_coreSelectInstance, SharedKotlinSuspendFunction0, SharedKtor_ioReadSession, SharedKotlinSuspendFunction1, SharedKotlinAppendable, SharedKtor_ioObjectPool, SharedKtor_ioInput, SharedKtor_ioOutput;
+@protocol SharedKotlinCoroutineContext, SharedKotlinx_coroutines_coreCoroutineScope, SharedRecipesListView, SharedRecipesPresenter, SharedKotlinx_serialization_coreKSerializer, SharedKtor_ioCloseable, SharedKtor_client_coreHttpClientEngine, SharedKtor_client_coreHttpClientEngineCapability, SharedKtor_utilsAttributes, SharedKotlinx_serialization_coreDeserializationStrategy, SharedKotlinx_serialization_coreSerializationStrategy, SharedKotlinx_serialization_coreSerialFormat, SharedKotlinx_serialization_coreStringFormat, SharedKotlinCoroutineContextElement, SharedKotlinCoroutineContextKey, SharedKotlinx_serialization_coreEncoder, SharedKotlinx_serialization_coreSerialDescriptor, SharedKotlinx_serialization_coreDecoder, SharedKtor_client_coreHttpClientFeature, SharedKtor_httpHttpMessageBuilder, SharedKotlinx_coroutines_coreJob, SharedKtor_client_coreHttpRequest, SharedKotlinContinuation, SharedKotlinContinuationInterceptor, SharedKotlinx_coroutines_coreRunnable, SharedKotlinSuspendFunction2, SharedKotlinx_serialization_coreSerializersModuleCollector, SharedKotlinKClass, SharedKotlinIterator, SharedKotlinx_serialization_coreCompositeEncoder, SharedKotlinAnnotation, SharedKotlinx_serialization_coreCompositeDecoder, SharedKtor_httpHeaders, SharedKtor_utilsStringValues, SharedKotlinMapEntry, SharedKotlinx_coroutines_coreChildHandle, SharedKotlinx_coroutines_coreChildJob, SharedKotlinx_coroutines_coreDisposableHandle, SharedKotlinSequence, SharedKotlinx_coroutines_coreSelectClause0, SharedKotlinKType, SharedKtor_httpHttpMessage, SharedKtor_ioByteReadChannel, SharedKotlinFunction, SharedKotlinKDeclarationContainer, SharedKotlinKAnnotatedElement, SharedKotlinKClassifier, SharedKotlinComparable, SharedKtor_httpParameters, SharedKotlinx_coroutines_coreParentJob, SharedKotlinx_coroutines_coreSelectInstance, SharedKotlinSuspendFunction0, SharedKtor_ioReadSession, SharedKotlinSuspendFunction1, SharedKotlinAppendable, SharedKtor_ioObjectPool, SharedKtor_ioInput, SharedKtor_ioOutput;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -139,6 +139,22 @@ __attribute__((swift_name("KotlinBoolean")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Greeting")))
+@interface SharedGreeting : SharedBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (NSString *)greeting __attribute__((swift_name("greeting()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Platform")))
+@interface SharedPlatform : SharedBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (readonly) NSString *platform __attribute__((swift_name("platform")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RecipeApi")))
 @interface SharedRecipeApi : SharedBase
 - (instancetype)initWithBasePath:(NSString *)basePath httpClient:(SharedKtor_client_coreHttpClient *)httpClient json:(SharedKotlinx_serialization_coreJson *)json __attribute__((swift_name("init(basePath:httpClient:json:)"))) __attribute__((objc_designated_initializer));
@@ -148,6 +164,67 @@ __attribute__((swift_name("RecipeApi")))
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getRecipeI:(NSString *)i q:(NSString * _Nullable)q p:(SharedInt * _Nullable)p completionHandler:(void (^)(SharedRecipeList * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getRecipe(i:q:p:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("NetworkService")))
+@interface SharedNetworkService : SharedBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (readonly) SharedRecipeApi *recipeApi __attribute__((swift_name("recipeApi")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RecipeService")))
+@interface SharedRecipeService : SharedBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)searchRecipesQuery:(NSString *)query withPics:(BOOL)withPics completionHandler:(void (^)(SharedRecipeList * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("searchRecipes(query:withPics:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
+@protocol SharedKotlinx_coroutines_coreCoroutineScope
+@required
+@property (readonly) id<SharedKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PresenterCoroutineScope")))
+@interface SharedPresenterCoroutineScope : SharedBase <SharedKotlinx_coroutines_coreCoroutineScope>
+- (instancetype)initWithContext:(id<SharedKotlinCoroutineContext>)context __attribute__((swift_name("init(context:)"))) __attribute__((objc_designated_initializer));
+- (void)viewDetached __attribute__((swift_name("viewDetached()")));
+@property (readonly) id<SharedKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@end;
+
+__attribute__((swift_name("RecipesListView")))
+@protocol SharedRecipesListView
+@required
+- (void)setItemsFromList:(NSArray<SharedRecipe *> *)list __attribute__((swift_name("setItemsFrom(list:)")));
+@end;
+
+__attribute__((swift_name("RecipesPresenter")))
+@protocol SharedRecipesPresenter
+@required
+- (void)attachViewView:(id<SharedRecipesListView>)view __attribute__((swift_name("attachView(view:)")));
+- (void)detachView __attribute__((swift_name("detachView()")));
+- (void)searchRecipesQuery:(NSString *)query withPics:(BOOL)withPics __attribute__((swift_name("searchRecipes(query:withPics:)")));
+@property id<SharedRecipesListView> _Nullable view __attribute__((swift_name("view")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RecipesPresenterImpl")))
+@interface SharedRecipesPresenterImpl : SharedBase <SharedRecipesPresenter>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)attachViewView:(id<SharedRecipesListView>)view __attribute__((swift_name("attachView(view:)")));
+- (void)detachView __attribute__((swift_name("detachView()")));
+- (void)searchRecipesQuery:(NSString *)query withPics:(BOOL)withPics __attribute__((swift_name("searchRecipes(query:withPics:)")));
+@property id<SharedRecipesListView> _Nullable view __attribute__((swift_name("view")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -221,83 +298,6 @@ __attribute__((swift_name("RecipeList.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 - (id<SharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Greeting")))
-@interface SharedGreeting : SharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (NSString *)greeting __attribute__((swift_name("greeting()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Platform")))
-@interface SharedPlatform : SharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (readonly) NSString *platform __attribute__((swift_name("platform")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("NetworkService")))
-@interface SharedNetworkService : SharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (readonly) SharedRecipeApi *recipeApi __attribute__((swift_name("recipeApi")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RecipeService")))
-@interface SharedRecipeService : SharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)searchRecipesQuery:(NSString *)query withPics:(BOOL)withPics completionHandler:(void (^)(SharedRecipeList * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("searchRecipes(query:withPics:completionHandler:)")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
-@protocol SharedKotlinx_coroutines_coreCoroutineScope
-@required
-@property (readonly) id<SharedKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PresenterCoroutineScope")))
-@interface SharedPresenterCoroutineScope : SharedBase <SharedKotlinx_coroutines_coreCoroutineScope>
-- (instancetype)initWithContext:(id<SharedKotlinCoroutineContext>)context __attribute__((swift_name("init(context:)"))) __attribute__((objc_designated_initializer));
-- (void)viewDetached __attribute__((swift_name("viewDetached()")));
-@property (readonly) id<SharedKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
-@end;
-
-__attribute__((swift_name("RecipesListView")))
-@protocol SharedRecipesListView
-@required
-- (void)setItemsFromList:(NSArray<SharedRecipe *> *)list __attribute__((swift_name("setItemsFrom(list:)")));
-@end;
-
-__attribute__((swift_name("RecipesPresenter")))
-@protocol SharedRecipesPresenter
-@required
-- (void)attachViewView:(id<SharedRecipesListView>)view __attribute__((swift_name("attachView(view:)")));
-- (void)detachView __attribute__((swift_name("detachView()")));
-- (void)searchRecipesQuery:(NSString *)query withPics:(BOOL)withPics __attribute__((swift_name("searchRecipes(query:withPics:)")));
-@property id<SharedRecipesListView> _Nullable view __attribute__((swift_name("view")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RecipesPresenterImpl")))
-@interface SharedRecipesPresenterImpl : SharedBase <SharedRecipesPresenter>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)attachViewView:(id<SharedRecipesListView>)view __attribute__((swift_name("attachView(view:)")));
-- (void)detachView __attribute__((swift_name("detachView()")));
-- (void)searchRecipesQuery:(NSString *)query withPics:(BOOL)withPics __attribute__((swift_name("searchRecipes(query:withPics:)")));
-@property id<SharedRecipesListView> _Nullable view __attribute__((swift_name("view")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -411,6 +411,15 @@ __attribute__((swift_name("KotlinCancellationException")))
 - (instancetype)initWithCause:(SharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 @end;
 
+__attribute__((swift_name("KotlinCoroutineContext")))
+@protocol SharedKotlinCoroutineContext
+@required
+- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<SharedKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
+- (id<SharedKotlinCoroutineContextElement> _Nullable)getKey:(id<SharedKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
+- (id<SharedKotlinCoroutineContext>)minusKeyKey:(id<SharedKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
+- (id<SharedKotlinCoroutineContext>)plusContext:(id<SharedKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
+@end;
+
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
 @protocol SharedKotlinx_serialization_coreSerializationStrategy
 @required
@@ -429,15 +438,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
 __attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
 @protocol SharedKotlinx_serialization_coreKSerializer <SharedKotlinx_serialization_coreSerializationStrategy, SharedKotlinx_serialization_coreDeserializationStrategy>
 @required
-@end;
-
-__attribute__((swift_name("KotlinCoroutineContext")))
-@protocol SharedKotlinCoroutineContext
-@required
-- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<SharedKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
-- (id<SharedKotlinCoroutineContextElement> _Nullable)getKey:(id<SharedKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
-- (id<SharedKotlinCoroutineContext>)minusKeyKey:(id<SharedKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
-- (id<SharedKotlinCoroutineContext>)plusContext:(id<SharedKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
 @end;
 
 __attribute__((swift_name("Ktor_client_coreHttpClientEngine")))
@@ -656,6 +656,11 @@ __attribute__((swift_name("KotlinArray")))
 @property (readonly) int32_t size __attribute__((swift_name("size")));
 @end;
 
+__attribute__((swift_name("KotlinCoroutineContextKey")))
+@protocol SharedKotlinCoroutineContextKey
+@required
+@end;
+
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
 @protocol SharedKotlinx_serialization_coreEncoder
 @required
@@ -718,11 +723,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
 - (id _Nullable)updateSerializableValueDeserializer:(id<SharedKotlinx_serialization_coreDeserializationStrategy>)deserializer old:(id _Nullable)old __attribute__((swift_name("updateSerializableValue(deserializer:old:)"))) __attribute__((unavailable("Update* methods are deprecated for removal. Update behaviour is now considered an implementation detail of the format.Updating elements that are outside of structure is an unsupported operation.")));
 @property (readonly) SharedKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @property (readonly) SharedKotlinx_serialization_coreUpdateMode *updateMode __attribute__((swift_name("updateMode"))) __attribute__((unavailable("Update mode in Decoder is deprecated for removal. Update behaviour is now considered an implementation detail of the format that should not concern serializer.")));
-@end;
-
-__attribute__((swift_name("KotlinCoroutineContextKey")))
-@protocol SharedKotlinCoroutineContextKey
-@required
 @end;
 
 __attribute__((objc_subclassing_restricted))

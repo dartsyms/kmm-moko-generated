@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="24"
-6-->/Users/sanchez/work/ios/otus/recipepuppy-kmm/shared/src/androidMain/AndroidManifest.xml
+6-->/Users/sanchez/work/ios/otus/kmm-moko-generated/shared/src/androidMain/AndroidManifest.xml
 7        android:targetSdkVersion="29" />
-7-->/Users/sanchez/work/ios/otus/recipepuppy-kmm/shared/src/androidMain/AndroidManifest.xml
+7-->/Users/sanchez/work/ios/otus/kmm-moko-generated/shared/src/androidMain/AndroidManifest.xml
 8
 9</manifest>

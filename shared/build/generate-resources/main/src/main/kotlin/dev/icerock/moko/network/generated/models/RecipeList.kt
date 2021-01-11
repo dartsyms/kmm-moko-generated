@@ -22,7 +22,7 @@ import kotlinx.serialization.SerialName
  * @param results 
  */
 @Serializable
-data class RecipeList (
+internal data class RecipeList (
     @SerialName("title")
     val title: kotlin.String? = null,
     @SerialName("results")

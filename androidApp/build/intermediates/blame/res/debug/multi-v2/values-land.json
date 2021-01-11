@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sanchez/work/ios/otus/recipepuppy-kmm/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/sanchez/work/ios/otus/kmm-moko-generated/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/sanchez/.gradle/caches/transforms-2/files-2.1/dbdc0d1914b3860f36e503c835e6a6d6/appcompat-1.2.0/res/values-land/values-land.xml",
+                    "source": "/Users/sanchez/.gradle/caches/transforms-2/files-2.1/6a94ca24ffa488179ea9c42711a977bd/appcompat-1.2.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/sanchez/.gradle/caches/transforms-2/files-2.1/0dbc8f067402a8d652acfd8ef2fd2cc1/material-1.2.1/res/values-land/values-land.xml",
+                    "source": "/Users/sanchez/.gradle/caches/transforms-2/files-2.1/e95bf715707f05a1cb1f3175b9f73f6e/material-1.2.1/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

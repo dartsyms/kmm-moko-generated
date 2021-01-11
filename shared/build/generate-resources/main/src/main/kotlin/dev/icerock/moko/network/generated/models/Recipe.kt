@@ -23,7 +23,7 @@ import kotlinx.serialization.SerialName
  * @param thumbnail 
  */
 @Serializable
-data class Recipe (
+internal data class Recipe (
     @SerialName("href")
     val href: kotlin.String,
     @SerialName("title")

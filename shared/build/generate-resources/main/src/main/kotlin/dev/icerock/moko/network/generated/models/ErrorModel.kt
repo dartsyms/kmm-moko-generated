@@ -21,7 +21,7 @@ import kotlinx.serialization.SerialName
  * @param code 
  */
 @Serializable
-data class ErrorModel (
+internal data class ErrorModel (
     @SerialName("message")
     val message: kotlin.String,
     @SerialName("code")

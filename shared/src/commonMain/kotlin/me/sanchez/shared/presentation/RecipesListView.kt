@@ -1,6 +1,6 @@
 package me.sanchez.shared.presentation
 
-import dev.icerock.moko.network.generated.models.Recipe
+import me.sanchez.shared.models.Recipe
 
 interface RecipesListView {
     fun setItemsFrom(list: List<Recipe>)

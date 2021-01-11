@@ -27,7 +27,7 @@ import kotlinx.serialization.builtins.ListSerializer
 import io.ktor.client.call.ReceivePipelineException
 import io.ktor.http.content.TextContent
 
-class RecipeApi(basePath: kotlin.String = "http://www.recipepuppy.com", httpClient: HttpClient, json: Json) {
+internal class RecipeApi(basePath: kotlin.String = "http://www.recipepuppy.com", httpClient: HttpClient, json: Json) {
     private val _basePath = basePath
     private val _httpClient = httpClient
     private val _json = json

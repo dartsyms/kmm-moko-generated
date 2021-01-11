@@ -1,6 +1,6 @@
 package me.sanchez.shared.presentation
 
-import dev.icerock.moko.network.generated.models.Recipe
+import me.sanchez.shared.models.Recipe
 import io.ktor.util.*
 import me.sanchez.shared.ioDispatcher
 import me.sanchez.shared.services.RecipeService
