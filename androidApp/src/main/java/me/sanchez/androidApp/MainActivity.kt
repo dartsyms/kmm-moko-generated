@@ -14,15 +14,11 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.MenuItemCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import me.sanchez.shared.Greeting
 import me.sanchez.shared.models.Recipe
 import me.sanchez.shared.presentation.RecipesListView
 import me.sanchez.shared.presentation.RecipesPresenter
 import me.sanchez.shared.presentation.RecipesPresenterImpl
 
-fun greet(): String {
-    return Greeting().greeting()
-}
 
 class MainActivity : AppCompatActivity(), RecipesListView {
     private val presenter: RecipesPresenter = RecipesPresenterImpl()
@@ -40,7 +36,6 @@ class MainActivity : AppCompatActivity(), RecipesListView {
     override fun onResume() {
         super.onResume()
         presenter.attachView(this)
-//        presenter.searchRecipes("meat", true)
     }
 
     override fun onPause() {
@@ -64,7 +59,6 @@ class MainActivity : AppCompatActivity(), RecipesListView {
                 super.onBackPressed()
             }
         }
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -88,10 +82,8 @@ class MainActivity : AppCompatActivity(), RecipesListView {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 Toast.makeText(applicationContext, query, Toast.LENGTH_SHORT).show()
                 presenter.searchRecipes(query ?: "", true)
-                searchView?.setIconified(true)
+                searchView?.isIconified = true
                 searchView?.clearFocus()
-
-
                 (menu.findItem(R.id.action_search)).collapseActionView()
                 return true
             }
