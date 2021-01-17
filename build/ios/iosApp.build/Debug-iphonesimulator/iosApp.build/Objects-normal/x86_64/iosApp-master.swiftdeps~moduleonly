@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "9c6dfe0b495cc14d4076ef6502aa93d9"
+build_time: [1610890910, 943344000]
+inputs:
+  "/Users/sanchez/work/ios/otus/kmm-moko-generated/iosApp/iosApp/ViewModel/RecipeListViewModel.swift": [1610394084, 392039432]
+  "/Users/sanchez/work/ios/otus/kmm-moko-generated/iosApp/iosApp/SupportingFiles/AppDelegate.swift": [1610394084, 390670520]
+  "/Users/sanchez/work/ios/otus/kmm-moko-generated/iosApp/iosApp/Extensions/Utils.swift": [1610394084, 390336094]
+  "/Users/sanchez/work/ios/otus/kmm-moko-generated/iosApp/iosApp/View/RecipeRow.swift": [1610394084, 391804700]
+  "/Users/sanchez/work/ios/otus/kmm-moko-generated/iosApp/iosApp/View/RecipesList.swift": [1610394084, 391893850]
+  "/Users/sanchez/work/ios/otus/kmm-moko-generated/iosApp/iosApp/ViewModel/RecipeRowViewModel.swift": [1610394084, 392213606]
+  "/Users/sanchez/work/ios/otus/kmm-moko-generated/iosApp/iosApp/View/CustomSearchView.swift": [1610394084, 391709967]
+  "/Users/sanchez/work/ios/otus/kmm-moko-generated/iosApp/iosApp/SupportingFiles/SceneDelegate.swift": [1610394084, 391571040]
+  "/Users/sanchez/work/ios/otus/kmm-moko-generated/iosApp/iosApp/SupportingFiles/ContentView.swift": [1610394084, 391392543]

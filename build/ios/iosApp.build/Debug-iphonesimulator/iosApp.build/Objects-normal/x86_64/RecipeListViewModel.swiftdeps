@@ -1,0 +1,586 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RecipeListViewModel"
+provides-nominal:
+- "6iosApp19RecipeListViewModelC"
+provides-member:
+- ["6iosApp19RecipeListViewModelC", ""]
+provides-dynamic-lookup:
+- "$__lazy_storage_$_presenter"
+- "$recipes"
+- "$term"
+- "_recipes"
+- "_term"
+- "detach"
+- "fetchData"
+- "presenter"
+- "recipes"
+- "requests"
+- "searchBy"
+- "searchRecipesBy"
+- "setItemsFrom"
+- "term"
+- "updateRecipes"
+depends-top-level:
+- !private "$term"
+- "<="
+- "AnyCancellable"
+- !private "Array"
+- !private "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "ObservableObject"
+- "Published"
+- "Recipe"
+- "RecipeListViewModel"
+- "RecipesListView"
+- "RecipesPresenter"
+- "RecipesPresenterImpl"
+- !private "RunLoop"
+- "Set"
+- "String"
+- !private "presenter"
+- "recipes"
+- !private "requests"
+- !private "searchBy"
+- "self"
+- !private "updateRecipes"
+- "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "milliseconds"]
+- !private ["7Combine14AnyCancellableC", "store"]
+- !private ["Sa", "append"]
+- !private ["Sa", "forEach"]
+- ["Sa", "init"]
+- !private ["Sa", "removeAll"]
+- ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "forEach"]
+- ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "removeAll"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "append"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "count"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "forEach"]
+- ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "isEmpty"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "removeAll"]
+- !private ["s7CVarArgP", "append"]
+- ["s7CVarArgP", "attachView"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "forEach"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["7Combine11CancellableP", "store"]
+- ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "forEach"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "removeAll"]
+- !private ["7Combine10PublishersO10CompactMapV", "sink"]
+- ["SL", ""]
+- !private ["SL", "count"]
+- ["SL", "init"]
+- !private ["SL", "isEmpty"]
+- !private ["SL", "milliseconds"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "attachView"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "attachView"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "removeAll"]
+- !private ["7Combine10PublishersO8DebounceV", "removeDuplicates"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "forEach"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "milliseconds"]
+- !private ["Se", "removeAll"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "forEach"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "milliseconds"]
+- !private ["SE", "removeAll"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- ["SQ", "attachView"]
+- !private ["SQ", "count"]
+- !private ["SQ", "forEach"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "main"]
+- !private ["SQ", "milliseconds"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "store"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByFloatLiteralP", "milliseconds"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "milliseconds"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- ["SH", ""]
+- !private ["SH", "append"]
+- ["SH", "attachView"]
+- !private ["SH", "count"]
+- !private ["SH", "forEach"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "main"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "store"]
+- ["So10SharedBaseC", ""]
+- ["So10SharedBaseC", "attachView"]
+- ["So10SharedBaseC", "attachViewView"]
+- ["So10SharedBaseC", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["7Combine10PublishersO3MapV", "compactMap"]
+- !private ["7Combine10PublishersO10MapKeyPathV", "compactMap"]
+- !private ["s10MirrorPathP", "count"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "forEach"]
+- ["SM", "init"]
+- !private ["SM", "removeAll"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "removeAll"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "isEmpty"]
+- ["So9NSCopyingP", "attachView"]
+- ["So9NSCopyingP", "attachViewView"]
+- !private ["So9NSCopyingP", "count"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "attachView"]
+- ["So8NSObjectC", "attachViewView"]
+- !private ["So8NSObjectC", "count"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectP", ""]
+- ["So8NSObjectP", "attachView"]
+- ["So8NSObjectP", "attachViewView"]
+- !private ["So8NSObjectP", "count"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "count"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["Sj", ""]
+- !private ["Sj", "milliseconds"]
+- !private ["7Combine16ObservableObjectP", "$term"]
+- ["7Combine16ObservableObjectP", "Default_ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Failure"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Published"]
+- ["7Combine16ObservableObjectP", "Recipe"]
+- ["7Combine16ObservableObjectP", "RecipesPresenterImpl"]
+- !private ["7Combine16ObservableObjectP", "RunLoop"]
+- ["7Combine16ObservableObjectP", "Set"]
+- ["7Combine16ObservableObjectP", "String"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "_recipes"]
+- !private ["7Combine16ObservableObjectP", "_term"]
+- !private ["7Combine16ObservableObjectP", "detach"]
+- !private ["7Combine16ObservableObjectP", "fetchData"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "presenter"]
+- !private ["7Combine16ObservableObjectP", "recipes"]
+- !private ["7Combine16ObservableObjectP", "requests"]
+- !private ["7Combine16ObservableObjectP", "searchBy"]
+- !private ["7Combine16ObservableObjectP", "searchRecipesBy"]
+- ["7Combine16ObservableObjectP", "self"]
+- ["7Combine16ObservableObjectP", "setItemsFrom"]
+- ["7Combine16ObservableObjectP", "setItemsFromList"]
+- !private ["7Combine16ObservableObjectP", "term"]
+- !private ["7Combine16ObservableObjectP", "updateRecipes"]
+- ["7Combine9PublishedV", "init"]
+- ["7Combine9PublishedV", "projectedValue"]
+- ["7Combine9PublishedV", "subscript"]
+- ["7Combine9PublishedV", "wrappedValue"]
+- !private ["7Combine9PublisherP", "compactMap"]
+- !private ["7Combine9PublishedV9PublisherV", "debounce"]
+- !private ["7Combine9PublisherP", "debounce"]
+- !private ["7Combine9PublisherP", "map"]
+- !private ["7Combine9PublisherP", "removeDuplicates"]
+- !private ["7Combine9PublisherP", "sink"]
+- ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "forEach"]
+- ["Sk", "init"]
+- !private ["Sk", "removeAll"]
+- ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "forEach"]
+- ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "removeAll"]
+- !private ["6iosApp19RecipeListViewModelC", "$__lazy_storage_$_presenter"]
+- ["6iosApp19RecipeListViewModelC", "$recipes"]
+- ["6iosApp19RecipeListViewModelC", "$term"]
+- ["6iosApp19RecipeListViewModelC", "AnyCancellable"]
+- ["6iosApp19RecipeListViewModelC", "Bool"]
+- ["6iosApp19RecipeListViewModelC", "Default_ObjectWillChangePublisher"]
+- ["6iosApp19RecipeListViewModelC", "ObjectWillChangePublisher"]
+- ["6iosApp19RecipeListViewModelC", "Published"]
+- ["6iosApp19RecipeListViewModelC", "Recipe"]
+- ["6iosApp19RecipeListViewModelC", "RecipesPresenter"]
+- ["6iosApp19RecipeListViewModelC", "RecipesPresenterImpl"]
+- !private ["6iosApp19RecipeListViewModelC", "RunLoop"]
+- ["6iosApp19RecipeListViewModelC", "Set"]
+- ["6iosApp19RecipeListViewModelC", "String"]
+- ["6iosApp19RecipeListViewModelC", ""]
+- ["6iosApp19RecipeListViewModelC", "_Default_ObjectWillChangePublisher"]
+- !private ["6iosApp19RecipeListViewModelC", "_recipes"]
+- !private ["6iosApp19RecipeListViewModelC", "_term"]
+- ["6iosApp19RecipeListViewModelC", "deinit"]
+- ["6iosApp19RecipeListViewModelC", "detach"]
+- ["6iosApp19RecipeListViewModelC", "fetchData"]
+- ["6iosApp19RecipeListViewModelC", "init"]
+- ["6iosApp19RecipeListViewModelC", "objectWillChange"]
+- !private ["6iosApp19RecipeListViewModelC", "presenter"]
+- ["6iosApp19RecipeListViewModelC", "recipes"]
+- !private ["6iosApp19RecipeListViewModelC", "requests"]
+- ["6iosApp19RecipeListViewModelC", "searchBy"]
+- !private ["6iosApp19RecipeListViewModelC", "searchRecipesBy"]
+- ["6iosApp19RecipeListViewModelC", "self"]
+- ["6iosApp19RecipeListViewModelC", "setItemsFrom"]
+- ["6iosApp19RecipeListViewModelC", "setItemsFromList"]
+- ["6iosApp19RecipeListViewModelC", "term"]
+- ["6iosApp19RecipeListViewModelC", "updateRecipes"]
+- ["So21SharedRecipesListViewP", "$__lazy_storage_$_presenter"]
+- ["So21SharedRecipesListViewP", "$recipes"]
+- ["So21SharedRecipesListViewP", "$term"]
+- ["So21SharedRecipesListViewP", "Default_ObjectWillChangePublisher"]
+- ["So21SharedRecipesListViewP", "ObjectWillChangePublisher"]
+- ["So21SharedRecipesListViewP", "Published"]
+- ["So21SharedRecipesListViewP", "Recipe"]
+- ["So21SharedRecipesListViewP", "RecipesPresenterImpl"]
+- !private ["So21SharedRecipesListViewP", "RunLoop"]
+- ["So21SharedRecipesListViewP", "Set"]
+- ["So21SharedRecipesListViewP", "String"]
+- ["So21SharedRecipesListViewP", ""]
+- ["So21SharedRecipesListViewP", "_Default_ObjectWillChangePublisher"]
+- ["So21SharedRecipesListViewP", "_recipes"]
+- ["So21SharedRecipesListViewP", "_term"]
+- ["So21SharedRecipesListViewP", "deinit"]
+- ["So21SharedRecipesListViewP", "detach"]
+- ["So21SharedRecipesListViewP", "fetchData"]
+- ["So21SharedRecipesListViewP", "init"]
+- ["So21SharedRecipesListViewP", "objectWillChange"]
+- ["So21SharedRecipesListViewP", "presenter"]
+- ["So21SharedRecipesListViewP", "recipes"]
+- ["So21SharedRecipesListViewP", "requests"]
+- ["So21SharedRecipesListViewP", "searchBy"]
+- ["So21SharedRecipesListViewP", "searchRecipesBy"]
+- ["So21SharedRecipesListViewP", "self"]
+- ["So21SharedRecipesListViewP", "setItemsFrom"]
+- ["So21SharedRecipesListViewP", "setItemsFromList"]
+- ["So21SharedRecipesListViewP", "term"]
+- ["So21SharedRecipesListViewP", "updateRecipes"]
+- ["So22SharedRecipesPresenterP", "attachView"]
+- !private ["So22SharedRecipesPresenterP", "detachView"]
+- ["So22SharedRecipesPresenterP", "init"]
+- !private ["So22SharedRecipesPresenterP", "searchRecipes"]
+- ["So26SharedRecipesPresenterImplC", "attachView"]
+- ["So26SharedRecipesPresenterImplC", "init"]
+- !private ["7Combine10PublishersO16RemoveDuplicatesV", "map"]
+- !private ["So9NSRunLoopC", "main"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["7Combine9SchedulerP", "minimumTolerance"]
+- !private ["7Combine9SchedulerP", "now"]
+- !private ["7Combine9SchedulerP", "schedule"]
+- !private ["7Combine32SchedulerTimeIntervalConvertibleP", "microseconds"]
+- !private ["7Combine32SchedulerTimeIntervalConvertibleP", "milliseconds"]
+- !private ["7Combine32SchedulerTimeIntervalConvertibleP", "nanoseconds"]
+- !private ["7Combine32SchedulerTimeIntervalConvertibleP", "seconds"]
+- ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "forEach"]
+- ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "removeAll"]
+- ["Sh", "init"]
+- ["s10SetAlgebraP", "init"]
+- !private ["s13SignedNumericP", "milliseconds"]
+- !private ["So9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideV", "milliseconds"]
+- !private ["Sx", "_step"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "distance"]
+- !private ["SS", "count"]
+- ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["Sy", "count"]
+- ["Sy", "init"]
+- !private ["Sy", "isEmpty"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "count"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "count"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "attachView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "attachView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["So13CKRecordValueP", "count"]
+- !private ["So13CKRecordValueP", "isEmpty"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "7Combine14AnyCancellableC"
+- "Sa"
+- "SK"
+- "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "7Combine11CancellableP"
+- "Sl"
+- !private "7Combine10PublishersO10CompactMapV"
+- "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- !private "7Combine10PublishersO8DebounceV"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "So10SharedBaseC"
+- "s25LosslessStringConvertibleP"
+- !private "7Combine10PublishersO3MapV"
+- !private "7Combine10PublishersO10MapKeyPathV"
+- "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- "7Combine16ObservableObjectP"
+- "7Combine9PublishedV"
+- !private "7Combine9PublisherP"
+- !private "7Combine9PublishedV9PublisherV"
+- !private "7Combine9PublisherP"
+- "Sk"
+- "Sm"
+- "6iosApp19RecipeListViewModelC"
+- "So21SharedRecipesListViewP"
+- "So22SharedRecipesPresenterP"
+- "So26SharedRecipesPresenterImplC"
+- !private "7Combine10PublishersO16RemoveDuplicatesV"
+- !private "So9NSRunLoopC"
+- !private "7Combine9SchedulerP"
+- !private "7Combine32SchedulerTimeIntervalConvertibleP"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "So9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideV"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "So13CKRecordValueP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sanchez/work/ios/otus/kmm-moko-generated/build/ios/Debug-iphonesimulator/AsyncImageLoader.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sanchez/work/ios/otus/kmm-moko-generated/shared/build/xcode-frameworks/shared.framework/Headers/shared.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sanchez/work/ios/otus/kmm-moko-generated/shared/build/xcode-frameworks/shared.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0f163b556d8fc2130a77217e1eb898b0"

@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "10ec6959c0a782c2a796ab50f0d7f1b3"
+build_time: [1610890866, 855613000]
+inputs:
+  "/Users/sanchez/Library/Developer/Xcode/DerivedData/iosApp-bmmrnrdtkbmmknelqkslyecwouus/SourcePackages/checkouts/AsyncImageLoader/Sources/AsyncImageLoader/AsyncImage.swift": [1610815389, 867258363]
+  "/Users/sanchez/Library/Developer/Xcode/DerivedData/iosApp-bmmrnrdtkbmmknelqkslyecwouus/SourcePackages/checkouts/AsyncImageLoader/Sources/AsyncImageLoader/Environment.swift": [1610815389, 867625009]
+  "/Users/sanchez/Library/Developer/Xcode/DerivedData/iosApp-bmmrnrdtkbmmknelqkslyecwouus/SourcePackages/checkouts/AsyncImageLoader/Sources/AsyncImageLoader/ImageLoader.swift": [1610815389, 867972563]
+  "/Users/sanchez/Library/Developer/Xcode/DerivedData/iosApp-bmmrnrdtkbmmknelqkslyecwouus/SourcePackages/checkouts/AsyncImageLoader/Sources/AsyncImageLoader/TemporaryImageCache.swift": [1610815389, 868315025]

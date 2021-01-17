@@ -1,0 +1,4 @@
+module AsyncImageLoader {
+header "AsyncImageLoader-Swift.h"
+export *
+}
